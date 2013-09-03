@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static "base.css" %}">
+    <title>{% block title %}{% endblock %}</title>
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+    <h1>My survey site</h1>
+    {% block content %}{% endblock %}
+    {% block footer %}
+    <p>Thanks for visiting my site.</p>
+    {% endblock %}
+</body>
+</html>

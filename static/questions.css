@@ -1,0 +1,16 @@
+html, body{
+    width: 100%;
+}
+
+h1{
+   background-color: #307DA1;
+   text-align: center;
+   font-size: 50px;
+   font-family: 'Helvetica', 'serif', 'sans-serif';
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
